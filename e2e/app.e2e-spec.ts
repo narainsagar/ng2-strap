@@ -7,8 +7,8 @@ describe('ng2-strap App', function() {
     page = new Ng2StrapPage();
   });
 
-  it('should display message saying app works', () => {
+  it('should display message saying \'Hello World!\'', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    expect(page.getParagraphText()).toEqual('Hello World!');
   });
 });

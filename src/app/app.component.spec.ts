@@ -16,8 +16,8 @@ describe('App: Ng2Strap', () => {
     expect(app).toBeTruthy();
   }));
 
-  it('should have as title \'app works!\'',
+  it('should have as title \'Hello World!\'',
       inject([AppComponent], (app: AppComponent) => {
-    expect(app.title).toEqual('app works!');
+    expect(app.title).toEqual('Hello World!');
   }));
 });
